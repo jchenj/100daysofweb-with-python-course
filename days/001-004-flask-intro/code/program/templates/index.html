@@ -1,6 +1,13 @@
+{#{% extends "base.html" %}#}
+{##}
+{#{% block content %}#}
+{#    <h1>Hello! The current date is {{ time }}</h1>#}
+{#    <p> THIS IS TEXT FROM INDEX, NOT BASE </p>#}
+{#{% endblock %}#}
+
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Hello! The current date is {{ time }}</h1>
-    <p> THIS IS TEXT FROM INDEX, NOT BASE </p>
+    <h1>Hello!</h1>
+    <p>This is text we're included in our HTML file.</p>
 {% endblock %}
